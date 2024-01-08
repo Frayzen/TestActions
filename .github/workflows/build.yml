@@ -4,14 +4,16 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: scripts
         shell: bash
     steps:
       - name: Simple ls
         run: |
           ls -la
           pwd
+          tree
+        working-directory: scripts
       - name: Check for example
         run: |
           chmod +x check.sh
           ./chech.sh
+        working-directory: scripts

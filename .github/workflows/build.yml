@@ -6,6 +6,7 @@ jobs:
       run:
         shell: bash
     steps:
+      - uses: actions/checkout@v1
       - name: Simple ls
         run: |
           ls -la

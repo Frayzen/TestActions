@@ -2,6 +2,10 @@ on: push
 jobs:
   check:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./
+        shell: bash
     steps:
-      - run: node --version
-      - run: sh chech.sh
+      - name: Check for example
+        run: ./chech.sh

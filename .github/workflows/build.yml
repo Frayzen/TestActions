@@ -17,4 +17,4 @@ jobs:
           sh ./test.sh
       - name: Check for example
         run: |
-          sh ./scripts/chech.sh
+          sh ./scripts/check.sh

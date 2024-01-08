@@ -7,6 +7,10 @@ jobs:
         working-directory: scripts
         shell: bash
     steps:
+      - name: Simple ls
+        run: |
+          ls -la
+          pwd
       - name: Check for example
         run: |
           chmod +x check.sh

@@ -11,7 +11,6 @@ jobs:
           ls -la
           pwd
           tree
-        working-directory: scripts
       - name: Check for example
         run: |
           chmod +x check.sh

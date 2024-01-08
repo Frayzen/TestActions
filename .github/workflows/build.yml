@@ -8,4 +8,6 @@ jobs:
         shell: bash
     steps:
       - name: Check for example
-        run: ./chech.sh
+        run: |
+          chmod +x check.sh
+          ./chech.sh

@@ -11,7 +11,9 @@ jobs:
           ls -la
           pwd
           tree
+      - name: root
+        run: |
+          sh ./test.sh
       - name: Check for example
         run: |
-          chmod +x ./scripts/check.sh
-          ./scripts/chech.sh
+          sh ./scripts/chech.sh

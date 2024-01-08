@@ -13,6 +13,5 @@ jobs:
           tree
       - name: Check for example
         run: |
-          chmod +x check.sh
-          ./chech.sh
-        working-directory: scripts
+          chmod +x ./scripts/check.sh
+          ./scripts/chech.sh

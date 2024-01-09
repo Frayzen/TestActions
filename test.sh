@@ -1,1 +1,0 @@
-echo "Hey! Public eifu"

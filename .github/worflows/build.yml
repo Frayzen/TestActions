@@ -1,5 +1,5 @@
-on: push
 jobs:
+  on: push
   check:
     runs-on: ubuntu-latest
     defaults:

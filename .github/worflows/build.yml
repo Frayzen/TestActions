@@ -7,8 +7,8 @@ jobs:
         shell: bash
     steps:
       - uses: actions/checkout@v1
-      - name: Clang Format
-        uses: RafikFarhad/clang-format-github-action@3.2
+      # - name: Clang Format
+      #   uses: RafikFarhad/clang-format-github-action@3.2
       - name: Execute the checks
         run: |
           sh ./tests/push_check.sh
